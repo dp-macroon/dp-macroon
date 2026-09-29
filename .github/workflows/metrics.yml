@@ -1,0 +1,190 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "20 0 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+
+  github-metrics:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+
+        with:
+
+          # --------------------------------------------------
+          # ACCOUNT
+          # --------------------------------------------------
+
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          user: dp-macroon
+
+          template: classic
+
+          config_timezone: Asia/Kolkata
+
+          config_padding: 8%
+
+          optimize: svg
+
+
+          # --------------------------------------------------
+          # BASE INFORMATION
+          # --------------------------------------------------
+
+          base: header, activity, repositories
+
+
+          # --------------------------------------------------
+          # 3D CONTRIBUTION CALENDAR
+          # --------------------------------------------------
+
+          plugin_isocalendar: yes
+
+          plugin_isocalendar_duration: half-year
+
+
+          # --------------------------------------------------
+          # LANGUAGE ACTIVITY
+          # --------------------------------------------------
+
+          plugin_languages: yes
+
+          plugin_languages_details: bytes-size, percentage
+
+          plugin_languages_limit: 8
+
+          plugin_languages_sections: most-used
+
+
+          # --------------------------------------------------
+          # CODING HABITS
+          # --------------------------------------------------
+
+          plugin_habits: yes
+
+          plugin_habits_from: 100
+
+          plugin_habits_days: 14
+
+          plugin_habits_facts: yes
+
+          plugin_habits_charts: yes
+
+          plugin_habits_trim: yes
+
+
+          # --------------------------------------------------
+          # RECENT ACTIVITY
+          # --------------------------------------------------
+
+          plugin_activity: yes
+
+          plugin_activity_limit: 6
+
+          plugin_activity_days: 14
+
+
+          # --------------------------------------------------
+          # REPOSITORY INFORMATION
+          # --------------------------------------------------
+
+          repositories: 50
+
+          repositories_affiliations: owner
+
+
+          # --------------------------------------------------
+          # PURPLE / DARK GLASS STYLE
+          # --------------------------------------------------
+
+          extras_css: |
+
+            :root {
+              --color-calendar-graph-day-bg: #16121f;
+              --color-calendar-graph-day-L1-bg: #2e1065;
+              --color-calendar-graph-day-L2-bg: #5b21b6;
+              --color-calendar-graph-day-L3-bg: #7c3aed;
+              --color-calendar-graph-day-L4-bg: #a78bfa;
+            }
+
+            svg {
+              background: #0b0912;
+              border-radius: 24px;
+            }
+
+            h1, h2, h3 {
+              color: #c4b5fd !important;
+            }
+
+            text {
+              fill: #c4b5fd;
+            }
+
+
+          # --------------------------------------------------
+          # SVG POLISH
+          # --------------------------------------------------
+
+          extras_js: |
+
+            // Add a subtle glass-style visual treatment
+            document.querySelectorAll("rect").forEach((rect) => {
+
+              const fill = rect.getAttribute("fill");
+
+              if (fill && fill !== "none") {
+                rect.setAttribute(
+                  "rx",
+                  "5"
+                );
+
+                rect.setAttribute(
+                  "ry",
+                  "5"
+                );
+              }
+
+            });
+
+            // Round metric containers
+            document.querySelectorAll("rect").forEach((rect) => {
+
+              const width = parseFloat(
+                rect.getAttribute("width") || "0"
+              );
+
+              const height = parseFloat(
+                rect.getAttribute("height") || "0"
+              );
+
+              if (width > 100 && height > 40) {
+
+                rect.setAttribute(
+                  "rx",
+                  "18"
+                );
+
+                rect.setAttribute(
+                  "ry",
+                  "18"
+                );
+
+              }
+
+            });
