@@ -260,13 +260,20 @@ Worked on RF and microwave design workflows involving filters, antennas, electro
 
 ---
 
-# 🛠️ Technology Landscape
+# 🧩 Technology Landscape
 
 <p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=python,c,cpp,bash,verilog,html,css,js,vue,flask,sqlite,redis,linux,git,github,docker,vscode&perline=9&theme=dark"
-    alt="Technology Stack"
-  />
+
+<img src="https://skillicons.dev/icons?i=python,c,cpp,bash,verilog&perline=5&theme=dark"/>
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=html,css,js,vue,flask,sqlite,redis&perline=7&theme=dark"/>
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=linux,git,github,docker,vscode&perline=5&theme=dark"/>
+
 </p>
 
 <p align="center">
@@ -306,3 +313,16 @@ Open To:
   - FPGA / Digital Systems
   - Edge AI
   - Product Engineering
+---
+
+# ⚡ Development Activity
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/dp-macroon/dp-macroon/main/github-metrics.svg"
+    width="100%"
+    alt="GitHub Development Metrics"
+  />
+</p>
+
+---
