@@ -14,119 +14,72 @@ permissions:
   contents: write
 
 jobs:
-
   github-metrics:
-
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
 
         with:
-
-          # --------------------------------------------------
-          # ACCOUNT
-          # --------------------------------------------------
-
-          token: ${{ secrets.METRICS_TOKEN }}
-
+          # GitHub username
           user: dp-macroon
 
+          # GitHub Personal Access Token
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # General appearance
           template: classic
-
           config_timezone: Asia/Kolkata
-
           config_padding: 8%
 
+          # Output
           optimize: svg
 
-
-          # --------------------------------------------------
-          # BASE INFORMATION
-          # --------------------------------------------------
-
+          # Main sections
           base: header, activity, repositories
 
-
           # --------------------------------------------------
-          # 3D CONTRIBUTION CALENDAR
+          # ISOMETRIC CONTRIBUTION CALENDAR
           # --------------------------------------------------
-
           plugin_isocalendar: yes
-
           plugin_isocalendar_duration: half-year
 
-
           # --------------------------------------------------
-          # LANGUAGE ACTIVITY
+          # MOST USED LANGUAGES
           # --------------------------------------------------
-
           plugin_languages: yes
-
           plugin_languages_details: bytes-size, percentage
-
           plugin_languages_limit: 8
-
           plugin_languages_sections: most-used
-
 
           # --------------------------------------------------
           # CODING HABITS
           # --------------------------------------------------
-
           plugin_habits: yes
-
           plugin_habits_from: 100
-
           plugin_habits_days: 14
-
           plugin_habits_facts: yes
-
           plugin_habits_charts: yes
-
           plugin_habits_trim: yes
-
 
           # --------------------------------------------------
           # RECENT ACTIVITY
           # --------------------------------------------------
-
           plugin_activity: yes
-
           plugin_activity_limit: 6
-
           plugin_activity_days: 14
-# --------------------------------------------------
-# WAKATIME CODING ACTIVITY
-# --------------------------------------------------
-
-plugin_wakatime: yes
-
-plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-
-plugin_wakatime_days: 7
-
-plugin_wakatime_sections: time, projects, projects-graphs
-
-plugin_wakatime_limit: 5
 
           # --------------------------------------------------
           # REPOSITORY INFORMATION
           # --------------------------------------------------
-
           repositories: 50
-
           repositories_affiliations: owner
 
-
           # --------------------------------------------------
-          # PURPLE / DARK GLASS STYLE
+          # PURPLE / DARK THEME
           # --------------------------------------------------
-
           extras_css: |
-
             :root {
               --color-calendar-graph-day-bg: #16121f;
               --color-calendar-graph-day-L1-bg: #2e1065;
@@ -148,35 +101,20 @@ plugin_wakatime_limit: 5
               fill: #c4b5fd;
             }
 
-
           # --------------------------------------------------
-          # SVG POLISH
+          # ROUNDED / GLASS-LIKE ELEMENTS
           # --------------------------------------------------
-
           extras_js: |
-
-            // Add a subtle glass-style visual treatment
             document.querySelectorAll("rect").forEach((rect) => {
-
               const fill = rect.getAttribute("fill");
 
               if (fill && fill !== "none") {
-                rect.setAttribute(
-                  "rx",
-                  "5"
-                );
-
-                rect.setAttribute(
-                  "ry",
-                  "5"
-                );
+                rect.setAttribute("rx", "5");
+                rect.setAttribute("ry", "5");
               }
-
             });
 
-            // Round metric containers
             document.querySelectorAll("rect").forEach((rect) => {
-
               const width = parseFloat(
                 rect.getAttribute("width") || "0"
               );
@@ -186,17 +124,7 @@ plugin_wakatime_limit: 5
               );
 
               if (width > 100 && height > 40) {
-
-                rect.setAttribute(
-                  "rx",
-                  "18"
-                );
-
-                rect.setAttribute(
-                  "ry",
-                  "18"
-                );
-
+                rect.setAttribute("rx", "18");
+                rect.setAttribute("ry", "18");
               }
-
             });
