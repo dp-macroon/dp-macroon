@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E1B4B,50:4C1D95,100:6D28D9&height=190&section=header&text=DHEEPIKA%20RAVIKUMAR&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Software%20%7C%20AI%20%7C%20FPGA%20%7C%20Digital%20Systems&descAlignY=58&descSize=18&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E1B4B,50:4C1D95,100:6D28D9&height=190&section=header&text=DHEEPIKA%20R&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Software%20%7C%20AI%20%7C%20FPGA%20%7C%20Digital%20Systems&descAlignY=58&descSize=18&animation=fadeIn" width="100%" />
 </p>
 
 <p align="center">
@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Software%20Engineering-Engineering-4C1D95?style=for-the-badge&logo=code&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI%20%2F%20ML-Engineering-5B21B6?style=for-the-badge&logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/FPGA-%26%20Digital%20Systems-312E81?style=for-the-badge&logo=xilinx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Software%20Engineering-4C1D95?style=for-the-badge&logo=code&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI%20%2F%20ML-5B21B6?style=for-the-badge&logo=googlecloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/FPGA%20%26%20Digital%20Systems-312E81?style=for-the-badge&logo=xilinx&logoColor=white" />
 </p>
 
 <p align="center">
@@ -37,25 +37,19 @@
 
 # About
 
-I build software and intelligent systems with a focus on **AI/ML, computer vision, digital systems, FPGA development, and practical engineering**.
+I build **software, AI/ML, and intelligent hardware systems** with a focus on practical engineering and real-world applications.
 
-My work spans from **Python-based applications and machine learning workflows** to **hardware-accelerated inference and embedded systems**. I enjoy taking a problem from an initial idea to a working implementation while keeping solutions practical, maintainable, and measurable.
+My work spans **Python-based applications, machine learning, computer vision, full-stack development, FPGA design, and hardware-accelerated inference**.
 
-I am particularly interested in the intersection of **software, AI, and hardware**, with an emphasis on systems that solve real problems rather than isolated demonstrations.
+I enjoy working across the software–hardware boundary, turning ideas into systems that are **functional, measurable, and built to solve a problem**.
 
 ### Areas of Interest
 
-`Software Engineering` · `AI/ML` · `Computer Vision` · `FPGA` · `Digital Systems` · `Edge AI`
+`Software Engineering` · `AI / ML` · `Computer Vision` · `FPGA` · `Digital Systems` · `Edge AI`
 
 ### Open To
 
-- Software Engineering
-- AI / ML Engineering
-- Computer Vision
-- FPGA & Digital Systems
-- Edge AI & Hardware Acceleration
-- Embedded & Intelligent Systems
-- Product Engineering
+`Software Engineering` · `AI / ML` · `Computer Vision` · `FPGA` · `Edge AI` · `Product Engineering`
 
 ---
 
@@ -82,7 +76,7 @@ I am particularly interested in the intersection of **software, AI, and hardware
 ### AI / ML
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-ML%20Workflows-312E81?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-312E81?style=flat-square" />
   <img src="https://img.shields.io/badge/Computer%20Vision-4C1D95?style=flat-square&logo=opencv&logoColor=white" />
   <img src="https://img.shields.io/badge/YOLO-5B21B6?style=flat-square" />
   <img src="https://img.shields.io/badge/ONNX-4338CA?style=flat-square&logo=onnx&logoColor=white" />
@@ -110,12 +104,12 @@ I am particularly interested in the intersection of **software, AI, and hardware
 
 | Domain | Focus |
 |:---|:---|
+| **Machine Learning** | Model development, data preparation and evaluation |
 | **Computer Vision** | Object detection and vision-based applications |
-| **Machine Learning** | Data preparation, modelling and evaluation |
-| **Deep Learning** | Model development, evaluation and deployment |
-| **Edge AI** | ML inference on resource-constrained platforms |
+| **Deep Learning** | Model development and deployment workflows |
+| **Edge AI** | AI inference on resource-constrained platforms |
 | **AI Hardware Acceleration** | FPGA-oriented acceleration and deployment |
-| **Generative AI** | LLMs, transformers and GenAI applications |
+| **Generative AI** | LLMs, transformers and AI-powered applications |
 | **Data Analysis** | Python-based analysis and experimentation |
 
 ---
@@ -125,56 +119,55 @@ I am particularly interested in the intersection of **software, AI, and hardware
 <details>
 <summary><b>Ascentia — Recruitment Workflow Platform</b></summary>
 
-A full-stack recruitment workflow application for managing candidates, applications, and recruitment processes.
+A full-stack recruitment platform focused on streamlining candidate and application workflows.
 
-| Area | Details |
-|:---|:---|
-| **Stack** | Flask · Vue · SQLite · JWT · Redis · Celery |
-| **Focus** | Full-stack application development |
-| **Engineering** | Authentication · RBAC · Background Processing |
-| **Repository** | [View Repository](https://github.com/24f2004166/placement-portal-app-v2) |
+**Stack:** `Flask` `Vue` `SQLite` `JWT` `Redis` `Celery`
+
+[View Repository →](https://github.com/24f2004166/placement-portal-app-v2)
 
 </details>
 
 <details>
 <summary><b>AI Chatbot</b></summary>
 
-An AI-powered conversational application exploring the integration of language models into an interactive software workflow.
+An AI-powered conversational application exploring practical integration of AI into an interactive software experience.
 
-| Area | Details |
-|:---|:---|
-| **Stack** | JavaScript · AI/ML · APIs |
-| **Focus** | Conversational AI |
-| **Engineering** | API Integration · Prompting · Application Logic |
-| **Repository** | [View Repository](https://github.com/dp-macroon/Gen_AI_Chatbot) |
+**Stack:** `JavaScript` `AI/ML` `APIs`
+
+[View Repository →](https://github.com/dp-macroon/Gen_AI_Chatbot)
 
 </details>
 
 <details>
 <summary><b>FunFact Generator</b></summary>
 
-A lightweight application that generates and presents interesting facts through an interactive interface.
+A lightweight web application focused on API/data handling and interactive presentation of generated content.
 
-| Area | Details |
-|:---|:---|
-| **Stack** | JavaScript · Web Technologies |
-| **Focus** | Application Development |
-| **Engineering** | Data Handling · UI Interaction |
-| **Repository** | [View Repository](https://github.com/dp-macroon/Funfacts) |
+**Stack:** `JavaScript` `Web Technologies`
+
+[View Repository →](https://github.com/dp-macroon/Funfacts)
 
 </details>
 
 <details>
-<summary><b>FPGA-Based Edge AI System</b></summary>
+<summary><b>Neuromorphic Computing</b></summary>
 
-An ongoing hardware-accelerated computer-vision project exploring real-time AI inference on FPGA-based edge platforms.
+A project exploring concepts and computational approaches related to neuromorphic systems.
 
-| Area | Details |
-|:---|:---|
-| **Stack** | Verilog · Vitis · Vivado · YOLO |
-| **Focus** | Edge AI & Hardware Acceleration |
-| **Engineering** | FPGA · ML Deployment · Digital Design |
-| **Repository** | [Explore Projects](https://github.com/dp-macroon) |
+**Focus:** `Neuromorphic Computing` `AI` `Computational Systems`
+
+[View Repository →](https://github.com/dp-macroon/neuromorphic-computing)
+
+</details>
+
+<details>
+<summary><b>FPGA-Based Edge AI</b></summary>
+
+An ongoing project exploring real-time computer vision and AI inference using FPGA-based acceleration.
+
+**Stack:** `Verilog` `Vitis` `Vivado` `YOLO`
+
+**Focus:** `FPGA` `Edge AI` `Hardware Acceleration`
 
 </details>
 
@@ -182,27 +175,27 @@ An ongoing hardware-accelerated computer-vision project exploring real-time AI i
 
 # Experience
 
-### Embedded Systems Internship
+### Embedded Systems
 
-Worked on practical embedded and sensing-system workflows involving instrumentation, sensors, PCB manufacturing, and software interfaces.
+Worked on practical embedded and sensing-system workflows involving instrumentation, sensors, PCB processes, and software interfaces.
 
-- Worked with laboratory instrumentation and data-acquisition workflows
-- Explored sensor interfacing and measurement systems
-- Gained exposure to PCB manufacturing processes
-- Developed Python-based software components
+- Instrumentation and data-acquisition workflows
+- Sensor interfacing and measurement systems
+- PCB manufacturing exposure
+- Python-based software components
 
 `LabVIEW` `Python` `Sensors` `PCB` `Embedded Systems`
 
-### RF & Microwave Design Internship
+### RF & Microwave Design
 
 Worked on RF and microwave design workflows involving filters, antennas, electromagnetic simulation, and measurement concepts.
 
-- Designed and simulated RF structures
-- Worked with microstrip filters and antenna designs
-- Used ADS and HFSS for electromagnetic analysis
-- Explored S-parameters and RF performance characteristics
+- RF structure design and simulation
+- Microstrip filters and antenna systems
+- Electromagnetic analysis using ADS and HFSS
+- S-parameter and RF performance analysis
 
-`ADS` `HFSS` `RF Design` `Microwave Engineering` `Antennas`
+`ADS` `HFSS` `RF Design` `Antennas` `Microwave Engineering`
 
 ---
 
@@ -211,30 +204,18 @@ Worked on RF and microwave design workflows involving filters, antennas, electro
 | Recognition | Details |
 |:---|:---|
 | **SheFi Scholar — Season 14** | Selected for the SheFi scholarship program |
-| **GSSoC 2025** | Selected Campus Ambassador / Representative |
-| **QUTOPIA Quiz Finalist** | Finalist in a technical and general-knowledge quiz |
 | **Boardroom Finalist** | Finalist at E-Summit |
-| **WiTS IITM BS — Core Team** | Contributed to internal community management |
-| **QUTOPIA o' Saavan 2026** | Event Head |
+| **WiTS Core Team** | Internal community management and coordination |
+| **QUTOPIA Event Head** | Led event planning and execution |
 | **Electronics Hardware Club** | Design Lead |
-
----
-
-# Certifications & Learning
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AWS-Technology%20Learning-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/NPTEL-Technical%20Learning-4F46E5?style=for-the-badge&logo=nptel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cisco-Technology%20Learning-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
-</p>
 
 ---
 
 # Coding Profiles
 
 <p align="center">
-  <a href="https://leetcode.com/">
-    <img src="https://img.shields.io/badge/LeetCode-Profile-F59E0B?style=for-the-badge&logo=leetcode&logoColor=white" />
+  <a href="https://leetcode.com/u/Dp_slayer/">
+    <img src="https://img.shields.io/badge/LeetCode-Dp__slayer-F59E0B?style=for-the-badge&logo=leetcode&logoColor=white" />
   </a>
   <a href="https://www.geeksforgeeks.org/">
     <img src="https://img.shields.io/badge/GeeksforGeeks-Profile-16A34A?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
@@ -299,8 +280,8 @@ Learning:
 
 Building:
   - AI-powered applications
-  - Full-stack projects
-  - Edge AI systems
+  - Full-stack systems
+  - Edge AI solutions
   - FPGA-based intelligent systems
 
 Exploring:
