@@ -37,7 +37,7 @@
 
 # About
 
-I build **software, AI/ML, and intelligent hardware systems** with a focus on practical engineering and real-world applications.
+I am an **Interdisciplinary student** who builds **AI/ML, and intelligent hardware systems** with a focus on practical engineering and real-world applications.
 
 My work spans **Python-based applications, machine learning, computer vision, full-stack development, FPGA design, and hardware-accelerated inference**.
 
@@ -230,43 +230,52 @@ Worked on RF and microwave design workflows involving filters, antennas, electro
 
 ---
 
-# GitHub Analytics
+---
+
+# ⚡ Development Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dp-macroon&show_icons=true&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=7C3AED&text_color=C4B5FD&ring_color=8B5CF6" height="180" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dp-macroon&hide_border=true&background=0D1117&ring=8B5CF6&fire=7C3AED&currStreakLabel=A78BFA&sideLabels=C4B5FD&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" height="180" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dp-macroon&layout=compact&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C4B5FD&langs_count=8" height="180" />
+  <img
+    src="https://raw.githubusercontent.com/dp-macroon/dp-macroon/main/github-metrics.svg"
+    width="100%"
+    alt="GitHub Development Metrics"
+  />
 </p>
 
 ---
 
-# GitHub Trophies
+# 🧩 Coding Profile
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dp-macroon&theme=discord&no-frame=true&no-bg=true&margin-w=8&column=6" />
+
+<a href="https://github.com/dp-macroon">
+<img src="https://img.shields.io/badge/GitHub-dp--macroon-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://leetcode.com/u/Dp_slayer/">
+<img src="https://img.shields.io/badge/LeetCode-Dp__slayer-A78BFA?style=for-the-badge&logo=leetcode&logoColor=white"/>
+</a>
+
 </p>
 
 ---
 
-# Contribution Activity
+# 🛠️ Technology Landscape
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dp-macroon&bg_color=0D1117&color=C4B5FD&line=7C3AED&point=A78BFA&area=true&hide_border=true&custom_title=Contribution%20Activity" width="100%" />
+  <img
+    src="https://skillicons.dev/icons?i=python,c,cpp,bash,verilog,html,css,js,vue,flask,sqlite,redis,linux,git,github,docker,vscode&perline=9&theme=dark"
+    alt="Technology Stack"
+  />
+</p>
+
+<p align="center">
+
+`AI / ML` · `Computer Vision` · `FPGA` · `Digital Design` · `Edge AI`
+
 </p>
 
 ---
-
-# Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/dp-macroon/dp-macroon/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" />
-</p>
-
----
-
 # Current Focus
 
 ```yaml
